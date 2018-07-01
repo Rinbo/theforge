@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
+gem 'bcrypt'
 
 
 group :development, :test do
