@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem 'bcrypt'
+gem 'faker'
 
 
 group :development, :test do
