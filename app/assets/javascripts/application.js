@@ -17,6 +17,8 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function() {
-    $(".dropdown-toggle").dropdown();
-});
+try {
+    window.$ = window.jQuery = require('jquery');
+    window.Popper = require('popper.js').default;
+    require('bootstrap');
+} catch (e) {}
