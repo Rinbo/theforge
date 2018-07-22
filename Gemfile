@@ -20,6 +20,7 @@ gem 'bootstrap-will_paginate'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'popper_js'
+gem 'jquery-ui-rails'
 
 
 group :development, :test do
