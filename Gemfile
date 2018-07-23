@@ -21,6 +21,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'popper_js'
 gem 'jquery-ui-rails'
+gem 'webpacker', '~> 3.5'
 
 
 group :development, :test do
