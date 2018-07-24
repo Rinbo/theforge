@@ -24,6 +24,7 @@ gem 'jquery-ui-rails'
 gem 'webpacker', '~> 3.5'
 
 
+
 group :development, :test do
 	gem 'sqlite3'
 	gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -38,7 +39,7 @@ end
 
 group :production do
 	gem 'pg'
-  gem 'fog'
+  gem 'fog'  
 end
 
 group :test do
