@@ -258,9 +258,19 @@
     .content {
       display: block;
       margin-left: 60px;
-      img {
-        display: block;
-        padding: 5px 0;
+      @media screen and (max-width: 550px) {
+        img {
+          display: block;
+          padding: 5px 0;
+          width: 215px;
+          height: auto;
+        }
+      }
+      @media screen and (min-width: 550px) {
+        img {
+          display: block;
+          padding: 5px 0;
+        }
       }
     }
     .timestamp {
